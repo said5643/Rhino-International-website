@@ -1,0 +1,277 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+/* Apply some basic styling to the select element */
+select {
+    padding: 9px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+  }
+  
+  /* Style the label for better visibility */
+  label {
+    display: inline-block; /* Display label as a block-level element */
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(cargo.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.menu {
+    background-color: #333;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.menu a:hover {
+    background-color: #555;
+}
+
+.menu .submenu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    width: 150px;
+    top: 100%;
+    left: 0;
+    list-style: none;
+}
+
+.menu .dropdown:hover .submenu {
+    display: block;
+}
+
+.menu .submenu li {
+    border-bottom: 1px solid #555;
+}
+
+.menu .submenu li:last-child {
+    border-bottom: none;
+}
+
+.menu .submenu a {
+    padding: 10px;
+}
+
+.menu .submenu a:hover {
+    background-color: #555;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the hero section */
+#hero {
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+}
+
+#hero h2 {
+    font-size: 36px;
+}
+
+#hero a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#hero a:hover {
+    background-color: #ffdd55;
+    color: #eee;
+  }
+
+
+/* Style the services section */
+#services {
+
+    padding: 50px;
+}
+
+.service {
+    text-align: center;
+    margin: 20px;
+}
+
+.service h3 {
+    font-size: 24px;
+}
+
+/* Style the about section */
+#about {
+    text-align: center;
+    padding: 50px;
+}
+
+/* Style the contact section */
+#contact {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+#contact a {
+    color: #ff6600;
+}
+
+/*Here I style the footer section*/
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent cards from wrapping to the next row */
+    justify-content: flex-start; /* Align cards to the left */
+    align-items: center;
+    border-radius: 10px; 
+    transition: background-color 0.3s;
+}
+
+.card {
+    display: flex;
+    background-color: #333; /* Dark background for the text */
+    color: #fff; /* Text color for the card */
+    max-width: 300px; /* Adjust the maximum width of the card */
+    border-radius: 10px; /* Add rounded corners */
+    margin: 20px; /* Add margin for spacing */
+    transition: background-color 0.3s;
+    
+ 
+}
+
+.card:hover, .card:active {
+    background-color: #0074D9; /* Change the background color on hover/touch */
+}
+
+.card img {
+    max-width: 100%; /* Ensure images scale to fit within the card */
+    
+}
+
+/* Add more styles as needed for card titles and descriptions */
+
+.image-card {
+    text-align: center;
+    margin: 20px;
+    display: inline-block;
+    align-items: center;
+}
+.zoom-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.image-card:hover .zoom-image {
+    transform: scale(1.5); /* Increase the scale factor to zoom in; 1.1 means 110% of the original size */
+  }
+
+.card-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 10px;
+    transform: translateY(100%);
+    transition: transform 0.5s;
+  }
+  
+  .image-card:hover .card-info {
+    transform: translateY(1);
+  }
+
+.image-card img {
+    width: 200px; /* Adjust the image width as needed */
+    height: 200px; /* Adjust the image height as needed */
+    border: 1px solid #ccc; /* Optional: Add a border around the image */
+    align-items:center;
+}
+
+
+.image-text {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+    align-items: center;
+}
+@media (max-width: 768px) {
+    /* CSS rules for screens up to 768px wide (e.g., smartphones) */
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* CSS rules for screens between 769px and 1024px wide (e.g., tablets) */
+}
+@media (min-width: 1025px) {
+    /* CSS rules for screens wider than 1024px (e.g., desktops) */
+}

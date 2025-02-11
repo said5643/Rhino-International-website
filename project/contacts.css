@@ -1,0 +1,309 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(cargo.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 20px;
+  }
+  
+  .dropdown-content a {
+    color: rgb(164, 161, 161);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #463d3dd9;
+}
+/* Style the login button */
+.login-button {
+    margin-left: 20px; /* Add margin to separate the login button */
+    background-color: #0074D9; /* Change the button's background color */
+    padding: 10px 15px; /* Adjust the button's padding */
+    border-radius: 5px; /* Add rounded corners */
+    color: #fff;
+}
+
+/* Change button styles on hover */
+.login-button a:hover {
+    background-color: #0056b3; /* Change the hover background color */
+}
+
+.menu {
+    background-color: #333;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.menu a:hover {
+    background-color: #555;
+}
+
+.menu .submenu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    width: 150px;
+    top: 100%;
+    left: 0;
+    list-style: none;
+}
+
+.menu .dropdown:hover .submenu {
+    display: block;
+}
+
+.menu .submenu li {
+    border-bottom: 1px solid #555;
+}
+
+.menu .submenu li:last-child {
+    border-bottom: none;
+}
+
+.menu .submenu a {
+    padding: 10px;
+}
+
+.menu .submenu a:hover {
+    background-color: #555;
+}
+
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+/* Apply some basic styling to the select element */
+select {
+    padding: 9px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+  }
+  
+  /* Style the label for better visibility */
+  label {
+    display: inline-block; /* Display label as a block-level element */
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+
+
+/* Style the hero section */
+#hero {
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+}
+
+#hero h2 {
+    font-size: 36px;
+}
+
+#hero a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#hero a:hover {
+    background-color: #ffdd55;
+    color: #eee;
+  }
+
+
+/* Style the services section */
+#services {
+
+    padding: 50px;
+}
+
+.service {
+    text-align: center;
+    margin: 20px;
+}
+
+.service h3 {
+    font-size: 24px;
+}
+
+/* Style the about section */
+#about {
+    text-align: center;
+    padding: 50px;
+}
+
+/* Form Section */
+.contact-container{
+    max-width: 620px;
+    margin:20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+
+h2{
+  text-align:center;
+  margin-bottom:20px;
+  color:#333;
+  text-transform:none;
+}
+.contact-container p{
+    text-align: left;
+    margin-bottom: 15px;
+}
+form{
+display:flex;
+flex-direction: column;
+}
+
+.input-group{
+margin-bottom: 20px;
+margin-right: 20px;
+}
+
+label{
+font-weight:bold;
+}
+
+input[type="Text"],
+input[type="email"],
+textarea{
+  width:100%;
+  padding:10px;
+  border:1px solid #ccc;
+  border-radius:3px;
+  margin-right: 10px;
+}
+
+.button-group{
+  display:flex;
+  justify-content: space-between;
+}
+
+select{
+width:200px;
+height: 24px;
+margin-left: 10px;
+}
+
+button{
+padding:10px 80px;
+background-color:#333;
+color:#fff;
+border:none;
+border-radius: 3px;
+cursor:pointer;
+}
+
+button:hover{
+padding:10px 80px;
+background-color:#2acc32;
+color:#fff;
+border:none;
+border-radius: 3px;
+cursor:pointer;
+}  
+
+button[type="reset"]{
+background-color:#ccc;
+color:#333;
+}
+
+button:hover[type="reset"]{
+background-color:#2e47d6;
+color:#fcf9f9;
+}
+@media (max-width: 768px) {
+    /* CSS rules for screens up to 768px wide (e.g., smartphones) */
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* CSS rules for screens between 769px and 1024px wide (e.g., tablets) */
+}
+@media (min-width: 1025px) {
+    /* CSS rules for screens wider than 1024px (e.g., desktops) */
+}
+
+
+/*Here I style the footer section*/
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}

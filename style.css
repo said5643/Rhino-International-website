@@ -1,0 +1,254 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+/* Apply some basic styling to the select element */
+select {
+    padding: 9px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+  }
+  
+  /* Style the label for better visibility */
+  label {
+    display: inline-block; /* Display label as a block-level element */
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Create a container for label and select elements */
+  .input-wrapper {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(cargo.jpg);
+    background-size: cover;
+    height: 100vh;
+
+}
+
+/* Style the header */
+
+
+
+.menu {
+    background-color: #333;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.menu a:hover {
+    background-color: #555;
+}
+
+.menu .submenu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    width: 150px;
+    top: 100%;
+    left: 0;
+    list-style: none;
+}
+
+.menu .dropdown:hover .submenu {
+    display: block;
+}
+
+.menu .submenu li {
+    border-bottom: 1px solid #555;
+}
+
+.menu .submenu li:last-child {
+    border-bottom: none;
+}
+
+.menu .submenu a {
+    padding: 10px;
+}
+
+.menu .submenu a:hover {
+    background-color: #555;
+}
+
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the hero section */
+#hero {
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+}
+
+#hero h2 {
+    font-size: 36px;
+}
+
+#hero a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#hero a:hover {
+    background-color: #ffd014;
+    color: #eee;
+  }
+
+
+/* Style the container for the search bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: 300px; /* Adjust the width as needed */
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  /* Style the search input field */
+  .search-input {
+    flex: 10;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-image: url(search.png) no-repeat 10px center;
+    background-size: 20px 20px;
+  }
+  .search-input :hover{
+    background-color: #1686ff;
+  }
+  
+  /* Style the search button */
+  .search-button {
+    background-color: #007bff; /* Blue color, adjust as needed */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Style the search icon */
+  .search-button i {
+    font-size: 16px; /* Adjust the icon size */
+    margin-right: 5px; /* Add some space between the icon and text */
+  }
+  
+  /* Hover styles for the search button */
+  .search-button:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+  }
+  
+
+
+
+
+/* Style the services section */
+#services {
+
+    padding: 50px;
+}
+
+.service {
+    text-align: center;
+    margin: 20px;
+}
+
+.service h3 {
+    font-size: 24px;
+}
+
+/* Style the about section */
+#about {
+    text-align: center;
+    padding: 50px;
+}
+
+/* Style the contact section */
+#contact {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+#contact a {
+    color: #ff6600;
+}
+@media (max-width: 768px) {
+    /* CSS rules for screens up to 768px wide (e.g., smartphones) */
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* CSS rules for screens between 769px and 1024px wide (e.g., tablets) */
+}
+@media (min-width: 1025px) {
+    /* CSS rules for screens wider than 1024px (e.g., desktops) */
+}
+
+
+/*Here I style the footer section*/
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
